@@ -20,7 +20,7 @@ function checkBiyerJoggoKina(jobPaicho, jomanoTaka) {
     else if (jobPaicho === false && jomanoTaka >= 1000000) {
         showResult('জব ছাড়া সমাজে ভেলু নাই, তবে ' +  jomanoTaka + ' টাকা থাকলে পাত্রী দেখা শুরু করো'); 
     }
-    else if (jobPaicho === false && jomanoTaka < 999999) {
+    else if (jobPaicho === false && jomanoTaka < 999999 && jomanoTaka >= 100000) {
         showResult('জব নাই? ' +  jomanoTaka + ' টাকা দিয়ে কয়দিন চলবি! কেউ মেয়ে দিবে না। জব ম্যানেজ কর।');     
     }
     else {
