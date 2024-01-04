@@ -49,6 +49,7 @@ function clearResult(showText) {
 // clear form
 function clearForm() {
     document.querySelector("#checkbox").checked = false;
+    document.querySelector("#checkbox2").checked = false;
     jobPaicho = false;
     document.getElementById("jomanoTaka").value = '';
 }
